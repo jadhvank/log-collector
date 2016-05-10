@@ -1,0 +1,26 @@
+{
+  "name": "log-generator",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "~1.14.1",
+    "console-stamp": "~0.2.0",
+    "express": "~4.13.3",
+    "jsonfile": "~2.2.3",
+    "mongodb": "~2.0.55",
+    "socket.io": "~1.3.7",
+    "socket.io-client": "~1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@dbmonkey.kaist.ac.kr:jadhvank/log_collector.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause"
+}
