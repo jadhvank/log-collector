@@ -43,7 +43,7 @@ function logEmule(socket, database, collection, requestedLecture) {
                                 // if (cnt < 500) {
                                     if (data.key === "code" || data.key === "script") {
                                         var activityLog = JSON.parse("{}");
-                                        activityLog._id = doc._id;
+                                        activityLog._id = doc.key;
                                         activityLog.course = stages.stageId;
                                         activityLog.lecture = stages.stageId;
                                         // activityLog.serverTS = Date.now();
